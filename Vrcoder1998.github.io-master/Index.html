@@ -1,0 +1,65 @@
+<html>
+    <head>
+	    <link rel="Stylesheet" href="Style.css"></link>
+		  <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous">
+		</script>
+	</head>
+	<body>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Dropdown Structure -->
+		<!--Start of Navbar-->
+        <nav>
+			<div class="nav-wrapper Black" >
+				<a href="#!" class="brand-logo"></a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+				<li><a href="#Asteroid">About-me</a></li>
+				<li><a href="#Meteroid">Internship</a></li>
+				<li><a href="#Comet">Project</a></li>
+				<li><a href="#Alien">Alien</a></li>
+				</ul>
+			</div>
+        </nav>
+
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="#Asteroid">About-me</a></li>
+				<li><a href="#Meteroid">Internship</a></li>
+				<li><a href="#Comet">Project</a></li>
+				<li><a href="#Alien">Alien</a></li>
+		</ul>
+		<!--End Navbar-->
+		<!--JQuery for side pannel-->
+		<script>
+			$(document).ready(function(){
+			$('.sidenav').sidenav();
+			 });
+		</script>
+		<!--End of JQuery of side pannel-->
+
+		<div class="Asteroid" id="Asteroid">
+		    <img src="Three.png" class="Three">
+			<img src="Four.png" class="Four">
+		    <img src="One.png" class="One" >
+            <h3 class="text1"><i>Welcome<i></h3><br><br>
+			<h3 class="text1"><i>I am Vraj Rana<i></h3><br>
+            <a class="Arrow" href="#"><i class="material-icons large">arrow_drop_down</i></a>			
+		</div>
+		<div class="meteor" id="Meteroid">
+		    
+		</div>
+		<div class="Comet" id="Comet">
+		    
+		</div>
+		<div class="Alien" id="Alien">
+		   
+		</div>
+	</body>
+
+</html>

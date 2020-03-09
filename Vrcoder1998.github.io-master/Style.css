@@ -1,0 +1,59 @@
+.Alien{
+	background-image: linear-gradient(135deg,#9ACD32,#006400);
+	height: 100vh;
+	position: relative;
+}
+.Asteroid{
+	background-image: linear-gradient(135deg,#B200ED,#AF69EE);
+	height: 100vh;
+	position: relative;
+	
+}
+
+.meteor{
+	background-image: linear-gradient(45deg,#DD571C,#FC6A03);
+	height: 100vh;
+	position: relative;
+}
+
+.Comet{
+	background-image: linear-gradient(135deg,#ADD8E6,#D8F3FE);
+	height: 100vh;
+	transform: translatey(-5%);
+    position: relative;
+}
+
+.text1{
+	position: absolute;
+    left: 50%;
+	margin-top: 10%;
+	font-family: monoscope;
+	transform: translatex(-50%);
+}
+.One{
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	height: 90vh
+}
+.Three{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	width: 30vw;
+	height: 100%;
+}
+.Four{
+	position: absolute;
+	bottom:0;
+	right: 0;
+	height: 100%;
+	width: 30vw;
+}
+.Arrow{
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	margin-top: 10%;
+	color: gray;
+}
